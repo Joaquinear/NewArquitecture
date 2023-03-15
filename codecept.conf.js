@@ -3,7 +3,7 @@ exports.config = {
   helpers: {
     Puppeteer: {
       url: 'https://www.unir.net/',
-      show: true,
+      show: false,
       windowSize: '1920x1080',
       waitForAction: 1000,
       restart: true,
