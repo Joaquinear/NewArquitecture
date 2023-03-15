@@ -1,0 +1,21 @@
+{
+  "name": "newarquitecture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "correr_prueba": "npx codeceptjs run --grep '@Prueba' --verbose --plugins allure",
+    "show-report": "allure serve output"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "codeceptjs": "^3.3.7",
+    "puppeteer": "^19.6.0"
+  },
+  "devDependencies": {
+    "@codeceptjs/allure-legacy": "^1.0.2",
+    "@testomatio/reporter": "^0.7.4"
+  }
+}
